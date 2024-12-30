@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The function might not be called consistently or at all, despite the barcode being successfully scanned. This is especially likely if using certain barcode formats or if the camera is rapidly scanning multiple barcodes.
